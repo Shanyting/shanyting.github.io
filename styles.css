@@ -1,0 +1,198 @@
+/*General Styling*/
+
+html {
+	background-color: #B3FFF0;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+.title {
+	float: left;
+	margin: 10px 0px 3px 5px;
+	padding: 5px 15px;
+	border: solid 0px;
+	font-size: 30px;
+	font-family: 'Belleza', cursive;
+}
+
+.philosopher {
+	font-family: 'Philosopher', cursive;
+}
+
+.lime {
+	color: lime;
+}
+
+.white {
+	color: white;
+}
+
+header {
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+	background: -webkit-linear-gradient(top, #148F77 , #117864, #148F77);
+}
+
+a {
+	text-decoration: none;
+	color: #CCFFF3;
+}
+
+.pages {
+	margin: 10px 12px 10px 0px;
+	padding: 10px 11px;
+	border: solid #E6FFF9 2px;
+	float: right;
+	font-family: 'Courgette', cursive;
+	font-size: 20px;
+}
+
+.pages:hover {
+	color: #17A589;
+	background-color: white;
+}
+
+#footer {
+	width: 100%;
+	background: -webkit-linear-gradient(top, #148F77 , #117864, #148F77);
+	text-align: center;
+	font-family: 'Belleza', sans-serif;
+	color: lime;
+	font-size: 20px;
+	position: absolute;
+}
+
+/*Home Page Styling*/
+.main {
+	position: absolute;
+	top: 35%;
+	bottom: 30%;
+	left: 10%;
+	right: 10%;
+	font-size: 7.5vw;
+	text-align: center;
+	font-family: 'Asap', sans-serif;
+	letter-spacing: 2px;
+	font-weight: bold;
+	color: indigo;
+}
+
+.image {
+	position: relative;
+	margin-top: 0;
+}
+
+img {
+	display: block;
+}
+
+#right-side {
+	left: 60%;
+}
+
+.round-edge {
+	position: absolute;
+	border: solid white;
+	border-radius: 50px;
+	background: rgba(120, 120, 220, 0.5);
+	padding: 2%;
+	top: 15%;
+	left: 5%;
+	height: 50%;
+	width: 30%;
+	text-align: center;
+	font-size: 2.6vw;
+	font-family: papyrus, cursive;
+}
+
+.info-and-vids {
+	color: green;
+	margin: 15px 50px;
+	font-size: 2.1vw;
+}
+
+#column1, #column2 {
+	width: 48%;
+	float: left;
+	margin: 1%;
+	padding-bottom: 10px;
+	background-color: #85C1E9;
+}
+
+p>a:hover {
+	color: springgreen;
+}
+
+.emphasize {
+	font-weight: bold;
+	text-decoration: underline;
+	font-size: 2.5vw;
+}
+
+/*Rainforest Facts styling*/
+.rainforest-facts {
+	position: absolute;
+	top: 10%;
+	line-height: 40px;
+	font-size: 20px;
+}
+
+/*Make An Impact styling*/
+#sign-up {
+	position: absolute;
+	top: 8%;
+	left: 55%;
+	width: 48%;
+	font-size: 7vw;
+	font-family: 'Papyrus', cursive;
+	text-decoration: underline;
+	font-weight: bold;
+	transform: translate(-50%, -50%);
+	/*color: darkgray;*/
+}
+
+#form {
+	position: absolute;
+	top: 17%;
+	width: 80%;
+	left: 10%;
+	font-size: 2vw;
+	text-align: center;
+	line-height: 4vw;
+}
+
+form {
+	text-shadow: -1.5px -1.5px #000000;
+}
+
+input[type=text] {
+	width: 35%;
+	padding: 5px 8px;
+	margin: 5px 0;
+	font-size: 1.4vw;
+	font-family: "Philosopher", cursive;
+}
+
+input[type=password] {
+	width: 40%;
+	padding: 5px 8px;
+	margin: 5px 0;
+	font-size: 1.4vw;
+	font-family: "Philosopher", cursive
+}
+
+select {
+	font-size: 1.8vw;
+}
+
+#submit {
+	font-family: 'Papyrus', cursive;
+	font-weight: bold;
+	font-size: 3vw;
+	color: green;
+	background-color: lightblue;
+}
